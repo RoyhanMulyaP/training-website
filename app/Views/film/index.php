@@ -53,7 +53,7 @@
 
     <!-- HEADER -->
     <div class="flex justify-between items-center mb-6">
-        <h1 class="text-4xl font-bold text-red-600">DATA FILM</h1>
+        <h1 class="text-4xl font-bold text-red-600">Film Management System</h1>
         <button onclick="openCreateModal()"
             class="px-5 py-2 bg-red-600 rounded-xl neon-red hover-glow transition">
             + Tambah Film
@@ -65,11 +65,11 @@
         <table class="w-full text-sm">
             <thead class="text-red-500 border-b border-red-600 text-sm">
                 <tr>
-                    <th class="py-4 px-3 text-left">Judul</th>
-                    <th class="py-4 px-3 text-left">Sutradara</th>
+                    <th class="py-4 px-3 text-left">JUDUL</th>
+                    <th class="py-4 px-3 text-left">SUTRADARA</th>
                     <!-- <th class="py-4 px-3 text-left">Synopsis</th> -->
-                    <th class="py-4 px-3 text-center">Cover</th>
-                    <th class="py-4 px-3 text-center">Aksi</th>
+                    <th class="py-4 px-3 text-center">COVER</th>
+                    <th class="py-4 px-3 text-center">AKSI</th>
                 </tr>
             </thead>
 
@@ -126,7 +126,7 @@
             </tbody>
 
         </table>
-        <!-- ACTION BOTTOM -->
+        <!-- ACTION BOTTOM
         <div class="flex justify-end mt-6">
             <a href="javascript:history.back()"
                 class="px-6 py-2 rounded-xl bg-zinc-800 border border-red-600/50
@@ -134,7 +134,7 @@
                transition hover-glow">
                 ← Kembali
             </a>
-        </div>
+        </div> -->
 
     </div>
 
@@ -365,6 +365,7 @@
             });
         }
     </script>
+
     <footer class="mt-16 border-t border-red-600/30 pt-6 text-sm text-gray-400">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row
                 justify-between items-center gap-4">
@@ -385,7 +386,7 @@
             <!-- RIGHT -->
             <div class="text-right text-xs">
                 © <?= date('Y') ?>
-                <span class="text-red-500 font-semibold">Royhan Pratama</span><br>
+                <span class="text-red-500 font-semibold">Nafroyin</span><br>
                 All Rights Reserved
             </div>
 

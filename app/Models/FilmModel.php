@@ -18,4 +18,5 @@ class FilmModel extends Model
     ];
 
     protected $useTimestamps = true;
+    protected $DBGroup = 'default';
 }

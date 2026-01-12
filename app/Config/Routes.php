@@ -6,7 +6,7 @@ use App\Controllers\FilmController;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'FilmController::index');
 
 $routes->group('film', function ($routes) {
     $routes->get('/', 'FilmController::index');
